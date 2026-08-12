@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bricourt Networks | Reclutamiento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bricourt Networks</h1>
+        <p>Servicios & Guild Management</p>
+    </header>
+
+    <main class="container">
+        <section class="form-wrapper">
+            <h2>Reclutamiento Guild BLESSED - MEGAMU</h2>
+            <form id="formularioGuild">
+                <div class="input-group">
+                    <label>Nombre del Personaje (IGN)</label>
+                    <input type="text" id="personaje" placeholder="Ej: DarkSoul" required>
+                </div>
+                
+                <div class="input-group">
+                    <label>Clase</label>
+                    <select id="clase">
+                        <option value="DK">Dark Knight</option>
+                        <option value="DW">Dark Wizard</option>
+                        <option value="FE">Fairy Elf</option>
+                        <option value="MG">Magic Gladiator</option>
+                        <option value="DL">Dark Lord</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Resets / Nivel</label>
+                    <input type="number" id="resets" placeholder="Ej: 50" required>
+                </div>
+
+                <button type="submit" id="btnEnviar">Enviar Aplicación</button>
+            </form>
+            
+            <!-- Aquí aparecerán los mensajes de error/éxito -->
+            <div id="statusMessage" class="hidden"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
