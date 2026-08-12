@@ -16,7 +16,7 @@ formulario.addEventListener('submit', async (e) => {
     const personaje = document.getElementById('personaje').value.trim();
     const clase = document.getElementById('clase').value;
     const resets = parseInt(document.getElementById('resets').value, 10);
-    const webhookUrl = 'TU_URL_DEL_WEBHOOK_AQUI'; // <--- PEGA TU URL AQUÍ
+    const webhookUrl = 'https://discord.com/api/webhooks/1536988431509495921/ZSq7hSUTawa3z_-yujh61wGmjNO1kpoO7UgE3rCMWBRfcSB7Zy44RGyusR-Ry_R44yHA'; // <--- PEGA TU URL AQUÍ
 
     // Validación
     if (personaje.length < 3) {
